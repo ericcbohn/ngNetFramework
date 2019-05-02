@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "lib": [ "dom", "es6" ],
+    "typeRoots": [ "node_modules/@types" ]
+  },
+  "exclude": [
+    "node_modules", 
+    "src/main.aot.ts"
+  ]
+}
