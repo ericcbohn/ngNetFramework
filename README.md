@@ -5,5 +5,6 @@ Boilerplate project for using Angular 7 with .NET Framework 4.7 Web API, and Web
 
 To get started:
 1) navigate to /Client directory
-2) npm run build:dev
-3) Debug/run from Visual Studio
+2) npm install
+3) npm run build:dev
+4) Debug/run from Visual Studio
