@@ -11,3 +11,9 @@ To get started:
 3) Command Line: npm run build:dev
 4) Visual Studio: right click on solution and "Restore NuGet Packages"
 4) Visual Studio: Debug/Run
+
+
+# Logging
+The application has built-in global exception handling for runtime exceptions originating from the client (Angular/JavaScript) or server (.NET MVC/WebAPI).  It is configured to use a log4net.config file in the root of the ngMayo.Logging directory - you will need to provide this yourself, but you can reference the README.txt file in the ngMayo.Logging project for a general outline.
+
+If you want to keep this in your own repo, make sure you remove the entry in .gitignore about the log4net.config file.

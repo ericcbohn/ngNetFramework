@@ -1,24 +1,21 @@
 ﻿# See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# Logging config - has authorization
+/ngMayo.Logging/log4net.config
+
 # Veracode files
-/ngmtds/PrecompiledWeb/
-/ngmtds/Properties/PublishProfiles/VeracodePrecompileProfile.pubxml
+/ngMayo.Web/PrecompiledWeb/
+/ngMayo.Web/Properties/PublishProfiles/VeracodePrecompileProfile.pubxml
 
 # Karma
-/ngmtds/coverage/
-
-# Build results
-/ngmtds/bin/
-/ngmtds/Bin/
-/ngmtds/obj/
-/ngmtds/Obj/
+/ngMayo.Web/coverage/
 
 # Microsoft Azure ApplicationInsights config file
-/ngmtds/ApplicationInsights.config
+/ngMayo.Web/ApplicationInsights.config
 
 # log files
-/ngmtds/App_Data/errors/
-/ngmtds/App_Data/log/
+/ngMayo.Web/App_Data/errors/
+/ngMayo.Web/App_Data/log/
 
 # User-specific files
 *.suo
@@ -39,18 +36,18 @@ bld/
 [Ll]og/
 
 # compiled output
-/ngmtds/Client/dist
-/ngmtds/Client/tmp
-/ngmtds/Client/out-tsc
+/ngMayo.Web/Client/dist
+/ngMayo.Web/Client/tmp
+/ngMayo.Web/Client/out-tsc
 # Only exists if Bazel was run
-/ngmtds/Client/bazel-out
+/ngMayo.Web/Client/bazel-out
 
 # Transpiled javscript files
-/ngmtds/Cient/src/**/*.js
-/ngmtds/Client/src/**/*.js.map
+/ngMayo.Web/Cient/src/**/*.js
+/ngMayo.Web/Client/src/**/*.js.map
 
 # dependencies
-/ngmtds/Client/node_modules
+/ngMayo.Web/Client/node_modules
 
 # profiling files
 chrome-profiler-events.json
@@ -75,7 +72,7 @@ speed-measure-plugin.json
 
 # misc
 /.sass-cache
-/ngmtds/Client/.sass-cache
+/ngMayo.Web/Client/.sass-cache
 /connect.lock
 /coverage
 /libpeerconnection.log
